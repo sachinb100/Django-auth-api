@@ -2,7 +2,7 @@
 API developed using Django Rest Framework.
 
 
- • User can signup, login, get profile data, change password.
+ • User can signup, login, get profile data, change password through a RESTful API.
 
 ## Run Locally
 
@@ -15,7 +15,24 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd Social-kids
+  cd <app-name>
+```
+
+Create a virtual environments
+```bash
+python -m venv env
+```
+
+
+Activate the virtual environment
+```bash
+On Windows
+env\Scripts\activate
+
+
+On macOS and Linux:
+source venv/bin/activate
+
 ```
 
 Install requirements
@@ -39,7 +56,12 @@ Run the project(in terminal)
 ```bash
 python manage.py runserver
 ```
-
+API access
+```bash
+Access the API at http://127.0.0.1:8000/api/
+```
 For testing:
 
 <b>You can use Postman API to  test this API.</b>
+
+
